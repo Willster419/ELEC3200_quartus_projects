@@ -1,0 +1,9 @@
+|lab1
+In1 => u.IN0
+In2 => u.IN1
+In3 => v.IN0
+In4 => v.IN1
+Out1 <= Out1.DB_MAX_OUTPUT_PORT_TYPE
+Out2 <= Out2.DB_MAX_OUTPUT_PORT_TYPE
+
+

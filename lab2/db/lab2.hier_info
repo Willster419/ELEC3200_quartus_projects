@@ -1,0 +1,25 @@
+|lab2
+a => y.IN1
+a => z.IN0
+a => s.IN1
+a => u.IN0
+b => y.IN0
+b => x.IN0
+b => u.IN1
+b => w.IN0
+b => s.IN0
+c => z.IN1
+c => w.IN1
+c => s.IN1
+c => x.IN1
+c => y.IN1
+c => v.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+u <= u.DB_MAX_OUTPUT_PORT_TYPE
+v <= v.DB_MAX_OUTPUT_PORT_TYPE
+w <= w.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

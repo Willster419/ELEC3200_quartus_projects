@@ -1,0 +1,31 @@
+
+State Machine - |lab4|lastnote
+Name lastnote.1100 lastnote.1011 lastnote.1010 lastnote.1001 lastnote.1000 lastnote.0111 lastnote.0110 lastnote.0101 lastnote.0100 lastnote.0011 lastnote.0010 lastnote.0001 
+lastnote.0001 0 0 0 0 0 0 0 0 0 0 0 0 
+lastnote.0010 0 0 0 0 0 0 0 0 0 0 1 1 
+lastnote.0011 0 0 0 0 0 0 0 0 0 1 0 1 
+lastnote.0100 0 0 0 0 0 0 0 0 1 0 0 1 
+lastnote.0101 0 0 0 0 0 0 0 1 0 0 0 1 
+lastnote.0110 0 0 0 0 0 0 1 0 0 0 0 1 
+lastnote.0111 0 0 0 0 0 1 0 0 0 0 0 1 
+lastnote.1000 0 0 0 0 1 0 0 0 0 0 0 1 
+lastnote.1001 0 0 0 1 0 0 0 0 0 0 0 1 
+lastnote.1010 0 0 1 0 0 0 0 0 0 0 0 1 
+lastnote.1011 0 1 0 0 0 0 0 0 0 0 0 1 
+lastnote.1100 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |lab4|progress
+Name progress.1100 progress.1011 progress.1010 progress.1001 progress.1000 progress.0111 progress.0110 progress.0101 progress.0100 progress.0011 progress.0010 progress.0001 progress.0000 
+progress.0000 0 0 0 0 0 0 0 0 0 0 0 0 0 
+progress.0001 0 0 0 0 0 0 0 0 0 0 0 1 1 
+progress.0010 0 0 0 0 0 0 0 0 0 0 1 0 1 
+progress.0011 0 0 0 0 0 0 0 0 0 1 0 0 1 
+progress.0100 0 0 0 0 0 0 0 0 1 0 0 0 1 
+progress.0101 0 0 0 0 0 0 0 1 0 0 0 0 1 
+progress.0110 0 0 0 0 0 0 1 0 0 0 0 0 1 
+progress.0111 0 0 0 0 0 1 0 0 0 0 0 0 1 
+progress.1000 0 0 0 0 1 0 0 0 0 0 0 0 1 
+progress.1001 0 0 0 1 0 0 0 0 0 0 0 0 1 
+progress.1010 0 0 1 0 0 0 0 0 0 0 0 0 1 
+progress.1011 0 1 0 0 0 0 0 0 0 0 0 0 1 
+progress.1100 1 0 0 0 0 0 0 0 0 0 0 0 1 

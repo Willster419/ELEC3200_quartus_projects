@@ -1,5 +1,8 @@
 //Willard Wider
-//to get 440hz signal from a 50MHZ signal- 50/440/2
+//6-15-17
+//ELEC 3200
+//Lab 4
+
 module lab4(signalout, clk);
   output signalout;
   reg signalout;
@@ -8,6 +11,7 @@ module lab4(signalout, clk);
   reg [3:0] progress, lastnote;
   
   initial begin
+    //init everything
     mycounter1=0;
     mycounter2=0;
     signalout=0;
@@ -18,30 +22,31 @@ module lab4(signalout, clk);
   always@(posedge clk) begin
     case(progress)
       default: begin
+      //do nothing
       end
       4'b0000: begin
-        mycounter1 = mycounter1 + 1'b1;
-        mycounter2 = mycounter2 + 1'b1;
+        mycounter1 = mycounter1 + 1'b1;//incriment the first counter
+        mycounter2 = mycounter2 + 1'b1;//incriment the second counter
         if (mycounter1 < countlow) begin
-          signalout = 0;
+          signalout = 0;//send out the 0 part of the duty cycle
         end
         if ((mycounter1 >= countlow) && (mycounter1 < counthigh)) begin
-          signalout = 1;
+          signalout = 1;//send out the 1 part of the dury cycle
         end
         if (mycounter1 >= counthigh) begin
-          signalout = 0;
-          mycounter1 = 0;
-          if (mycounter2 >= myonesecond) begin
-            progress = lastnote;
+          signalout = 0;//set it back to low
+          mycounter1 = 0;//reset the counter
+          if (mycounter2 >= myonesecond) begin//if it has been doing this signal for one second
+            progress = lastnote;//increment the case statement control below for the new tone
             mycounter2 = 0;
           end
         end
       end
       4'b0001: begin //C5, 523.25 Hz roughly
-        countlow = 47778;
-        counthigh = 95557;
-        progress = 0;
-        lastnote = 4'b0010;
+        countlow = 47778;//set the low part of the duty cycle
+        counthigh = 95557;//set the high part of the duty cycle
+        progress = 0;//reset the progress
+        lastnote = 4'b0010;//set the next note
       end
       4'b0010: begin //D5, 587.23 Hz roughly
         countlow = 42573;

@@ -1,6 +1,7 @@
 //Willard Wider
 //2017-06-01
 //ELEC3200
+//First and last name 7 segment display scroll
 
 module lab3(clk, speed_switch, key0, key1, led0, led1, led2, led3);
   input clk;

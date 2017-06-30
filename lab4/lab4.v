@@ -2,6 +2,7 @@
 //6-15-17
 //ELEC 3200
 //Lab 4
+//Square Wave Generator
 
 module lab4(signalout, clk);
   output signalout;

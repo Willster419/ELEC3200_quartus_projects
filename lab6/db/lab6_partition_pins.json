@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "col[0]",
+					"strict" : false
+				},
+				{
+					"name" : "col[1]",
+					"strict" : false
+				},
+				{
+					"name" : "col[2]",
+					"strict" : false
+				},
+				{
+					"name" : "col[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "row[0]",
+					"strict" : false
+				},
+				{
+					"name" : "row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "row[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

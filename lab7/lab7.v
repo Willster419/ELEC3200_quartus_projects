@@ -45,8 +45,9 @@ module lab7(VGA_CLK,VGA_BLANK_N,VGA_VS,VGA_HS,VGA_SYNC_N, clk, VGA_R, VGA_B, VGA
   mRed = 0;
   mGreen = 0;
   mBlue = 0;
-  counterLimit = 250000;//5ms
-  //counterLimit = 1250000;//12.5ms
+  //counterLimit = 250000;//5ms
+  //counterLimit = 20000;
+  counterLimit = 1250000;//12.5ms
   //counterLimit = 2500000;//50ms
   //counterLimit = 25000000;//500ms
   refreshCounter = 0;
@@ -95,12 +96,17 @@ module lab7(VGA_CLK,VGA_BLANK_N,VGA_VS,VGA_HS,VGA_SYNC_N, clk, VGA_R, VGA_B, VGA
         end
       endcase
     end
-    //set everything to white first
+    //set everything to yellow first
     //low intenslity blue
     //mBlue = 10'b0011111111;
+    //yellow
     mBlue = 10'b0011111111;
     mRed = 10'b1111111111;
     mGreen = 10'b1111111111;
+    //purple, in case you want it
+    //mBlue = 10'b1111111111;
+    //mRed = 10'b1111111111;
+    //mGreen = 10'b0000000000;
     //draw the first square. make it blue
     if ((99 < VGA_X && VGA_X < 301) && (99+movementAmmount < VGA_Y && VGA_Y < 301+movementAmmount)) begin
       mBlue = 10'b1111111111;
